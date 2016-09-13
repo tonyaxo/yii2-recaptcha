@@ -28,4 +28,19 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \recaptcha\AutoloadExample::widget(); ?>```
+'recaptcha' => [
+    'class' => 'recaptcha\ReCaptchaComponent',
+    'siteKey' => 'site_key',
+    'secretKey' => 'key_secret',
+],
+```
+
+You can also use this widget in an [[yii\widgets\ActiveForm|ActiveForm]] using the [[yii\widgets\ActiveField::widget()|widget()]]
+method, for example like this:
+
+```php
+<?= $form->field($model, 'reCaptcha')->widget(ReCaptcha::className(), [
+    'id' => 'sign-up-captcha',
+    'render' => ReCaptcha::RENDER_EXPLICIT,
+])->label(false) ?>
+```
