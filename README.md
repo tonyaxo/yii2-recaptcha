@@ -28,11 +28,13 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-'recaptcha' => [
-    'class' => 'recaptcha\ReCaptchaComponent',
-    'siteKey' => 'site_key',
-    'secretKey' => 'key_secret',
-],
+'components' => [
+    'recaptcha' => [
+        'class' => 'recaptcha\ReCaptchaComponent',
+        'siteKey' => 'site_key',
+        'secretKey' => 'key_secret',
+    ],
+];
 ```
 
 You can also use this widget in an [[yii\widgets\ActiveForm|ActiveForm]] using the [[yii\widgets\ActiveField::widget()|widget()]]
