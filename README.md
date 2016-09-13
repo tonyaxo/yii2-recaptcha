@@ -1,6 +1,18 @@
 Yii2 Google reCaptcha
 =====================
-Yii2 Google reCaptcha implementation
+Yii2 Google reCAPTCHA version 2.0 implementation.
+
+Overview
+--------
+
+ReCaptcha API version 2.0 [docs](https://developers.google.com/recaptcha/intro).
+
+### Features
+
+* All reCAPTCHA API 2.0 features;
+* Multiple support; 
+* Ajax (Pjax) support;
+* jQuery not require;
 
 Installation
 ------------
