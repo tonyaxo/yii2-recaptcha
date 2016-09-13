@@ -22,7 +22,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tonyaxo/yii2-recaptcha "*"
+php composer.phar require --prefer-dist tonyaxo/yii2-recaptcha "dev-master"
 ```
 
 or add
