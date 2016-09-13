@@ -1,0 +1,21 @@
+{
+    "name": "tonyaxo/yii2-recaptcha",
+    "description": "Yii2 Google reCaptcha implementation",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Bogatyrev",
+            "email": "sergey@bogatyrev.me"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "recaptcha\\": ""
+        }
+    }
+}
