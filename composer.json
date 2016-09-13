@@ -2,7 +2,7 @@
     "name": "tonyaxo/yii2-recaptcha",
     "description": "Yii2 Google reCaptcha implementation",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
+    "keywords": ["yii2","extension", "reCaptcha", "widget",],
     "license": "MIT",
     "authors": [
         {
