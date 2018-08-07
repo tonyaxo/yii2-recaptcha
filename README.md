@@ -2,6 +2,8 @@ Yii2 Google reCaptcha
 =====================
 Yii2 Google reCAPTCHA version 2.0 implementation.
 
+[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-authclient/downloads.png)](https://packagist.org/packages/tonyaxo/yii2-recaptcha)
+
 Overview
 --------
 
