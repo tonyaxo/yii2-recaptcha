@@ -2,6 +2,8 @@ Yii2 Google reCaptcha
 =====================
 Yii2 Google reCAPTCHA version 2.0 implementation.
 
+[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-authclient/downloads.png)](https://packagist.org/packages/tonyaxo/yii2-recaptcha)
+
 Overview
 --------
 
@@ -22,7 +24,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tonyaxo/yii2-recaptcha "dev-master"
+php composer.phar require --prefer-dist tonyaxo/yii2-recaptcha "~1.0"
 ```
 
 or add
@@ -53,7 +55,7 @@ You can also use this widget in an [[yii\widgets\ActiveForm|ActiveForm]] using t
 method, for example like this:
 
 ```php
-<?= $form->field($model, 'reCaptcha')->widget(ReCaptcha::className(), [
+<?= $form->field($model, 'reCaptcha')->widget(ReCaptcha::class, [
     'id' => 'sign-up-captcha',
     'render' => ReCaptcha::RENDER_EXPLICIT,
 ])->label(false) ?>
